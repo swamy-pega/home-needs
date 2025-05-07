@@ -1,7 +1,12 @@
 import avatar_default from './avatar_default.png'
 import avatar_men from './avatar_men.png'
 import avatar_women from './avatar_women.png'
-//import {react} from './react.svg'
+import carpenter from './carpenter.png'
+import electrician from './electrician.jpg'
+import plumber from './plumber.png'
+import repair from'./repair.png'
+import homerepair from './homerepair.png'
+//import {react} from './react.svg''
 export const images={
 
     avatar_default,
@@ -17,24 +22,23 @@ export const images={
 export const ServicesList=[
     {
 category:'Carpentry',
-image:avatar_men
-
+image:carpenter
     },
     {
  category:'Electrical',
-image:avatar_men
+image:electrician
     },
     {
         category:'Plumbing',
-       image:avatar_men
+       image:plumber
            },
            {
             category:'Repair',
-           image:avatar_men
-               },
+           image:repair
+           },
                {
                 category:'Other Services',
-               image:avatar_men
+               image:homerepair
                    }
 ]
 

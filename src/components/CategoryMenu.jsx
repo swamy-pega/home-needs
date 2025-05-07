@@ -11,7 +11,10 @@ const CategoryMenu = () => {
 {ServicesList.map( (item,index)=>
  (
 
-<Link className='flex flex-col items-center text-xs cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500' key={index} to={`/Handayman/${item.category}`}>
+<Link className='flex flex-col items-center text-xs cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500' 
+key={index} to={`/Handayman/${item.category}`}
+onClick={()=>scrollTo(0,0)}
+>
 <img className='w-20' src ={item.image} alit=''/>
 <p className=''>{item.category}</p>
 </Link>
