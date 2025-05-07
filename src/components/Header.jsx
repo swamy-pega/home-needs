@@ -14,7 +14,7 @@ const Header = () => {
 <p> Browse through  our list of handyman scheudle your appointment</p>
 </div>
 
- <a href='' className='flex items-center gap-2 bg-white px-8 py-3 rounded-full hover:scale-105 transition-all duration-300 '> Book Appointment </a>
+ <a href="#category" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full hover:scale-105 transition-all duration-300 '> Book Appointment </a>
      </div>
 
 
