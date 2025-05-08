@@ -108,7 +108,136 @@ export const HandymanList=[
         PostalCode:'L1P0M7'
     }
 },
-
+{
+    id:'h-6',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-7',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-8',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-9',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-10',
+    name:'Mr Ramesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-11',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-12',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-14',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-15',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
+{
+    id:'h-16',
+    name:'Mr Rakesh Robert',
+    image:avatar_men,
+    category:'Other Services',
+    Description:'Having 10 years experience',
+    Rating:'*****',
+    address:{
+        line1:'131 closson Dr',
+        City:'Whitby',
+        PostalCode:'L1P0M7'
+    }
+},
 
 
 
