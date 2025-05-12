@@ -49,7 +49,8 @@ export const HandymanList=[
     image:avatar_men,
     category:'Electrical',
     Description:'Having 10 years experience',
-    Rating:'*****',
+    Rating:'***',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -62,7 +63,8 @@ export const HandymanList=[
     image:avatar_men,
     category:'Plumbing',
     Description:'Having 10 years experience',
-    Rating:'*****',
+    Rating:'****',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -75,7 +77,8 @@ export const HandymanList=[
     image:avatar_men,
     category:'Carpentry',
     Description:'Having 2 years experience',
-    Rating:'*****',
+    Rating:'**',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -89,6 +92,7 @@ export const HandymanList=[
     category:'Repair',
     Description:'Having 10 years experience',
     Rating:'*****',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -102,6 +106,7 @@ export const HandymanList=[
     category:'Other Services',
     Description:'Having 10 years experience',
     Rating:'*****',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -115,6 +120,7 @@ export const HandymanList=[
     category:'Other Services',
     Description:'Having 10 years experience',
     Rating:'*****',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
@@ -128,6 +134,7 @@ export const HandymanList=[
     category:'Other Services',
     Description:'Having 10 years experience',
     Rating:'*****',
+    Fee:'50$',
     address:{
         line1:'131 closson Dr',
         City:'Whitby',
