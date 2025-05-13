@@ -24,14 +24,14 @@ function App() {
       <Routes>
   <Route path='/Home' element= {<Home/>}/>
   <Route path='/Handyman' element={<Handyman/>}/>
-  <Route path='/Handyman/:Category' elenent={<Handyman/>}/>
+  <Route path='/Handyman/:Category' element={<Handyman/>}/>
   <Route path='/login' element={<Login/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/my-profile' eleement={<MyProfile/>}/>
   <Route path='/my-appointments' element={<MyAppointments/>}/>
   <Route path='/appointment/:HandymanId' element={<Appointment/>}/>
-
+  <Route path='/appointment/:HandymanId/:Category' element={<Appointment/>}/>
 </Routes>
       
      </div>

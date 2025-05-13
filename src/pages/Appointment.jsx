@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import { Appcontext } from '../context/Appcontext'
+import ReleatedHandyman from '../components/ReleatedHandyman'
 
 const Appointment = () => {
 
 const {HandymanId}=useParams();
+
+const {Category}=useParams();
 const {HandymanList}=useContext(Appcontext)
 //console.log("==Id---"+HandymanId+" "+HandymanList.length) 
 //const []
@@ -31,12 +34,15 @@ const getAvailableSlots= async() => {
         //set time with index
         let endTime= new Date();
         endTime.setDate(today.getDate()+i);
-        endTime.setHours(21,0,0,0)
+        endTime.setHours(19,0,0,0)
        // console.log("endTime "+endTime);
         //setting hours
         if(today.getDate()=== currentDate.getDate())
         {
-            currentDate.setHours (currentDate.getHours()>10 ? currentDate.getHours()+i:10)
+            currentDate.setHours (currentDate.getHours()>10 ? currentDate.getHours()+1:10)
+
+        //endTime.setHours(10,0,0,0)
+            //console.log("cur get hours "+currentDate.getHours()+"end time"+endTime);
             currentDate.setMinutes (currentDate.getMinutes()>30 ? 30:0)
         }
         else
@@ -44,6 +50,7 @@ const getAvailableSlots= async() => {
             currentDate.setHours(10);
             currentDate.setMinutes(0);
         }
+        //console.log("cur get hours "+currentDate+"end time"+endTime);
 let timeSlots=[]
         while(currentDate<endTime)
         {
@@ -57,6 +64,15 @@ let timeSlots=[]
             })
             //incremnet the timeslot every 30 mins
             currentDate.setMinutes(currentDate.getMinutes()+30)
+
+        }
+        //console.log("timeSlots "+timeSlots.length);
+        if(timeSlots.length==0)
+        {
+            timeSlots.push ( {
+                dateTime:new Date(currentDate),
+                time:''
+            })
 
         }
         setTimeSlots(prev => ([...prev,timeSlots]) )
@@ -102,10 +118,13 @@ return handymanInfo &&(
   <p>Time slots</p>
 
     <div className='flex gap-3 items-center w-full mt-4 overflow-x-scroll '>
+       
     {timeSlots.length && timeSlots.map( (item,index) =>(
-<div key={index} onClick={()=> setSlotIndex(index)} className= {`text-center py-6 min-w-16 rounded-full cursor-pointer ${slotIndex === index ?'bg-primary text-white' :'border border-gray-200'}` }>
-<p> {item[0] && dayOfWeek[index]}</p>
+        
+<div key={index} onClick={()=> setSlotIndex(index)} className= {`text-center py-6 min-w-16 rounded-full cursor-pointer ${slotIndex === index ?'bg-primary text-white border border-gray-200' :'border border-gray-200'}` }>
+<p> {item[0] && dayOfWeek[item[0].dateTime.getDay()]}</p>
 <p> {item[0] && item[0].dateTime.getDate()}</p>
+
      </div>
      ))
    
@@ -114,13 +133,16 @@ return handymanInfo &&(
   {/*--starttime slot 9 am etc  */}  
  <div className='grid grid-cols-[1fr_1fr_1fr_1fr_1fr] items-center gap-3 w-auto mt-4'>
 {timeSlots.length && timeSlots[slotIndex].map( (item,index)=>(
-    <p className={`text-sm font-light flex-shrink-0 px-5 py-2 rounded-full cursor-pointer ${item.time === slotTime ? 'bg-primary text-white' :'bg-green-200 text-gray-900 border-gray-300' }`} key={(index)}
+  item.time==="" ? <p className='text-sm'> No Time slots available </p> :
+        <p className={`text-sm font-light flex-shrink-0 px-5 py-2 rounded-full cursor-pointer ${item.time === slotTime && slotTime!='' ? 'bg-primary text-white' :'bg-green-200 text-gray-900 border-gray-300' }`} key={(index)}
     onClick={()=>setSlotTime(item.time)}> {item.time.toLowerCase()}</p>
 
 ))}
  </div>
+ <button className='bg-primary text-white text-sm rounded-full py-4 px-14 my-6'> Book an appointment </button>
  </div> 
  {/*--end time slots  */}  
+ <div> <ReleatedHandyman HandymanId={HandymanId} Category={handymanInfo.category}/></div>
  </div>
  </div>
  )

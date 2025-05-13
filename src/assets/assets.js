@@ -61,7 +61,7 @@ export const HandymanList=[
     id:'h-2',
     name:'Mr Jack Jeff ',
     image:avatar_men,
-    category:'Plumbing',
+    category:'Electrical',
     Description:'Having 10 years experience',
     Rating:'****',
     Fee:'50$',
@@ -75,7 +75,7 @@ export const HandymanList=[
     id:'h-3',
     name:'Mr krish Ram',
     image:avatar_men,
-    category:'Carpentry',
+    category:'Electrical',
     Description:'Having 2 years experience',
     Rating:'**',
     Fee:'50$',
@@ -89,7 +89,7 @@ export const HandymanList=[
     id:'h-4',
     name:'Mr Abhishek ',
     image:avatar_men,
-    category:'Repair',
+    category:'Carpentry',
     Description:'Having 10 years experience',
     Rating:'*****',
     Fee:'50$',
@@ -101,9 +101,9 @@ export const HandymanList=[
 },
 {
     id:'h-5',
-    name:'Mr Rakesh Robert',
+    name:'Mr Swamy ',
     image:avatar_men,
-    category:'Other Services',
+    category:'Carpentry',
     Description:'Having 10 years experience',
     Rating:'*****',
     Fee:'50$',
@@ -115,9 +115,9 @@ export const HandymanList=[
 },
 {
     id:'h-6',
-    name:'Mr Rakesh Robert',
+    name:'Mr Jatin',
     image:avatar_men,
-    category:'Other Services',
+    category:'Carpentry',
     Description:'Having 10 years experience',
     Rating:'*****',
     Fee:'50$',
@@ -129,9 +129,9 @@ export const HandymanList=[
 },
 {
     id:'h-7',
-    name:'Mr Rakesh Robert',
+    name:'Mr RAJ KUMAR',
     image:avatar_men,
-    category:'Other Services',
+    category:'Plumbing',
     Description:'Having 10 years experience',
     Rating:'*****',
     Fee:'50$',
@@ -143,9 +143,9 @@ export const HandymanList=[
 },
 {
     id:'h-8',
-    name:'Mr Rakesh Robert',
+    name:'Mr Suresh Kumar',
     image:avatar_men,
-    category:'Other Services',
+    category:'Plumbing',
     Description:'Having 10 years experience',
     Rating:'*****',
     address:{
@@ -156,9 +156,9 @@ export const HandymanList=[
 },
 {
     id:'h-9',
-    name:'Mr Rakesh Robert',
+    name:'Mr Praveen Robert',
     image:avatar_men,
-    category:'Other Services',
+    category:'Plumbing',
     Description:'Having 10 years experience',
     Rating:'*****',
     address:{
@@ -169,9 +169,9 @@ export const HandymanList=[
 },
 {
     id:'h-10',
-    name:'Mr Ramesh Robert',
+    name:'Mr VIRAT',
     image:avatar_men,
-    category:'Other Services',
+    category:'Repair',
     Description:'Having 10 years experience',
     Rating:'*****',
     address:{
@@ -182,9 +182,9 @@ export const HandymanList=[
 },
 {
     id:'h-11',
-    name:'Mr Rakesh Robert',
+    name:'Mr Jwala ',
     image:avatar_men,
-    category:'Other Services',
+    category:'Repair',
     Description:'Having 10 years experience',
     Rating:'*****',
     address:{
@@ -195,7 +195,7 @@ export const HandymanList=[
 },
 {
     id:'h-12',
-    name:'Mr Rakesh Robert',
+    name:'Mr Virendar',
     image:avatar_men,
     category:'Other Services',
     Description:'Having 10 years experience',
@@ -207,8 +207,8 @@ export const HandymanList=[
     }
 },
 {
-    id:'h-14',
-    name:'Mr Rakesh Robert',
+    id:'h-13',
+    name:'Mr kamal hasan',
     image:avatar_men,
     category:'Other Services',
     Description:'Having 10 years experience',
@@ -221,7 +221,7 @@ export const HandymanList=[
 },
 {
     id:'h-15',
-    name:'Mr Rakesh Robert',
+    name:'Mr Mahesh babu',
     image:avatar_men,
     category:'Other Services',
     Description:'Having 10 years experience',
@@ -234,7 +234,7 @@ export const HandymanList=[
 },
 {
     id:'h-16',
-    name:'Mr Rakesh Robert',
+    name:'Mr Prabhas',
     image:avatar_men,
     category:'Other Services',
     Description:'Having 10 years experience',

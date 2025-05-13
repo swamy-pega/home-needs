@@ -19,7 +19,7 @@ const TopHandyManList = () => {
 (
     <div className='border grid grid-cols-[1fr] border-blue-200 rounded-xl p-4 overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' 
     key={index}
-    onClick={()=>navigate(`/Appointment/${items.id}`)}>
+    onClick={()=>navigate(`/Appointment/${items.id}/${items.category}`)}>
 <img className='bg-blue-5 w-44 'src={items.image} alt=""/>
 <div className='p-4'> 
     <div className='flex items-center gap-2 text-sm text-center text-green-500'>
